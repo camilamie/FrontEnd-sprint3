@@ -348,7 +348,6 @@ nav {
     }
 
     nav{
-        /* display: flex; */
         margin-left: 5px;
         justify-content: flex-start;
         flex-wrap: nowrap;
@@ -365,13 +364,10 @@ nav {
 
 
     .box-barra-pesquisa {
-        
         width: 90%;
     }
 
     .box-atalhos {
-        /* grid-template-columns: repeat(5, auto); */
-        
         display: flex;
         justify-content: center;
         align-items: center;

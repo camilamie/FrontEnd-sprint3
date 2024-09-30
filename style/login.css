@@ -121,3 +121,68 @@ input{
     line-height: normal;
     text-decoration-line: underline;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .titulo{
+        width: 400px;
+    }
+    .formulario {
+        width: 70vw;
+        height: 80vh;
+    }
+
+    .titulo-forms {
+        font-size: 50px;
+    }
+
+    input {
+        font-size: 20px;
+    }
+
+    .botao-login {
+        width: 60%;
+        height: 10%;
+    }
+
+    .botao-login__texto {
+        font-size: 2.5rem;
+    }
+
+    .link-esqueceu-senha {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .titulo{
+        width: 400px;
+    }
+    .formulario {
+        width: 90vw;
+        height: 75vh;
+        border-radius: 30px;
+    }
+
+    .titulo-forms {
+        font-size: 40px;
+    }
+
+    input {
+        font-size: 18px;
+    }
+
+    .botao-login {
+        width: 80%;
+        height: 12%;
+    }
+
+    .botao-login__texto {
+        font-size: 2rem;
+    }
+
+    .link-esqueceu-senha {
+        font-size: 18px;
+    }
+}
